@@ -11,6 +11,7 @@ body {
     font-family: sans-serif;
 }
 .nav {
+    z-index: 1;
     position: fixed;
     width: 100%;
     border: 2px solid whitesmoke;
@@ -34,24 +35,31 @@ body {
     margin-left: -60px;
 }
 .nav-menu {
-    display: flex;
+    /* float: right; */
     list-style: none;
+    margin-right: -110px;
 }
 .nav-menu ul {
     display: flex;
     list-style: none;
 }
 .nav-menu ul a {
+   
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(124, 117, 117);
+    background-image: url(/image/hero.jpeg);
     text-decoration: none;
-    color: rgb(52, 174, 223);
-    text-shadow: 5px 5px 5px rgba(0,0,0,.3);
+    color: rgb(148, 204, 35);
+    /* text-shadow: 5px 5px 5px rgba(0,0,0,.3); */
     font-size: 18px;
     font-weight: bold;
     margin: 0 15px;
     transition: color .4s;
 }
 .nav-menu ul a:hover {
-    color: crimson;
+    color: pink;
     background-color:gray;
     padding: 2px;
 }
