@@ -43,7 +43,7 @@ body {
     border-radius: 20px;
     padding: 10px;
     /* background-color: rgb(124, 117, 117); */
-    background-image: url(../image/hero.jpeg);
+    background-image: url("../image/hero.jpeg");
     text-decoration: none;
     color: rgb(148, 204, 35);
     /* text-shadow: 5px 5px 5px rgba(0,0,0,.3); */
