@@ -42,7 +42,7 @@ body {
     border: 2px solid transparent;
     border-radius: 20px;
     padding: 10px;
-    background-color: rgb(124, 117, 117);
+    /* background-color: rgb(124, 117, 117); */
     background-image: url(../image/hero.jpeg);
     text-decoration: none;
     color: rgb(148, 204, 35);
